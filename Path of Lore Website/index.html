@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Path of Lore</title>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="https://kit.fontawesome.com/077f1168e9.js"></script>
+        <script src="javascript/imageMapResizer.min.js"></script>
+		<script src="javascript/validate.js"></script>
+		<script src="javascript/BackToTop.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles/main.css"/>
+	</head>
+
+	
+	<body id="index">
+		<header class="banner">
+			<div class="container h-100">
+				<div class="row h-100 align-items-center">
+					<div class="col-12 text-center">
+						<h1>Path of Lore</h1>
+						<p class="lead">A conpendium of all PoE lore</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<nav class="nav navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+			<a class="navbar-brand active" href="#">Home</a>
+			<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarPages">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarPages">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="pages/genesis.html">Genesis</a></li>
+				<li class="nav-item"><a class="nav-link" href="pages/vaal.html">Vaal</a></li>
+				<li class="nav-item"><a class="nav-link" href="pages/karui.html">Karui</a></li>
+				<li class="nav-item"><a class="nav-link" href="pages/maraketh.html">Maraketh</a></li>
+				<li class="nav-item"><a class="nav-link" href="pages/ezomytes.html">Ezomytes</a></li>
+				<li class="nav-item"><a class="nav-link" href="pages/azmeri.html">Azmeri</a></li>
+				<li class="nav-item"><a class="nav-link" href="pages/eternals.html">Eternals</a></li>
+			</ul>
+			</div>
+			<ul class="nav justify-content-end">
+				<li class="nav-item"><a class="nav-link" href="pages/order.html">Order</a></li>
+				<li class="nav-item"><a class="nav-link text-right" href="https://www.pathofexile.com" target="_blank">Visit the Offical PoE Website</a></li>
+			</ul>
+		</nav>
+		
+		<div class="container-fluid">
+            <div class="row pt-3">
+            <div class="col-lg-12">
+                <img src="images/PoE_Cultures.png" alt="The various cultures of PoE" usemap="#poe_cultures" class="img-fluid rounded">
+
+                <map name="poe_cultures">
+                    <area target="_self" alt="Vaal" title="Vaal" href="pages/vaal.html" coords="3,0,542,498" shape="rect">
+                    <area target="_self" alt="Karui" title="Karui" href="pages/karui.html" coords="542,0,1079,500" shape="rect">
+                    <area target="_self" alt="Maraketh" title="Maraketh" href="pages/maraketh.html" coords="1079,0,1492,500" shape="rect">
+                    <area target="_self" alt="Ezomytes" title="Ezomytes" href="pages/ezomytes.html" coords="1494,0,1896,500" shape="rect">
+                    <area target="_self" alt="Azmeri" title="Azmeri" href="pages/azmeri.html" coords="1894,0,2218,500" shape="rect">
+                    <area target="_self" alt="Eternals" title="Eternals" href="pages/eternals.html" coords="2218,0,2499,500" shape="rect">
+                </map>
+                <p class="quotes text-center">The cultures found in the world of PoE</p>
+            </div>
+            </div>
+        </div>
+        
+        <div class="container content">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Welcome to Path of Lore</h2>
+                </div>
+            </div>
+        <hr><br>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>PoE has a rich lore that a player would only be able to understand by piecing together the various environmental storytelling elements you find around the world. This website complies all those together in one convenient place.
+                        <br><br>
+                        Select a culture from the image above to read more about it, or click below to start from the very beginning!
+                    </h3>
+                </div>
+            </div>
+            
+            <div class="row pt-5">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <a class="btn btn-dark btn-lg" href="pages/genesis.html" role="button">The Beginning</a>
+                </div>
+            </div>
+        </div>
+        <hr>     
+        
+		<a href = "mailto:30008716@tafe.wa.edu.au" class="email">Send Email</a>
+        <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+		
+    <script>
+            $('map').imageMapResize();
+    </script>    
+	</body>
+</html>

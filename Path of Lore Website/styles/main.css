@@ -1,0 +1,224 @@
+body, html{
+	height:100%;
+}
+
+h1{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+}
+
+h2{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+    font-size: 40px;
+    font-weight: bold;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h3{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+    font-size:18px;
+}
+
+p{
+	font-family: Palatino, Georgia, serif;
+}
+
+th{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+	background-color: white;
+}
+
+td{
+	font-family: Palatino, Georgia, serif;
+	color: #ffffff;
+    vertical-align: middle !important;
+}
+
+hr{
+	border-top: 1px solid #ffffff;
+}
+
+.list li{
+	padding-bottom:40px;
+}
+
+.nav a{
+	font-family: Palatino, Georgia, serif;
+}
+
+
+.quotes{
+	font-family:"Book Antiqua", Palatino, Georgia, serif;
+	color: #d1d1d1;
+	font-style: italic;
+    font-size: 20px;
+}
+
+.banner {
+	height: 30vh;
+	min-height: 50px;
+	background-image:radial-gradient(circle, rgba(255, 72, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/PoElogo_v1.png), url(../images/PoE-SkillTree-33.jpg);
+	background-size: cover, contain, cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color:#999999;
+}
+
+.banner h1{
+	color:#ffffff;
+	font-weight:bold;
+	font-size:69px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.banner p{
+	color:white;
+}
+
+.heading{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.content{
+	background-color: #00000066;
+	color: #ffffff;
+	width: 100%;
+	padding: 20px; 
+}
+
+.figure-caption{
+	color: #b0b0b0;
+}
+
+.vaal{
+	background-color:#ff0000;
+	color:black;
+}
+
+.karui{
+	background-color:#ff4000;
+	color:black;
+}
+
+.maraketh{
+	background-color:#c98600;
+	color:black;
+}
+
+.ezomytes{
+	background-color:#336600;
+	color:black;
+}
+
+.azmeri{
+	background-color:#5c1d0d;
+	color:black;
+}
+
+.eternals{
+	background-color:#ffd633;
+	color:black;
+}
+
+.genesis{
+	background-color:gray;
+	color:black;
+}
+
+.order{
+	background-color:blue;
+	color:white;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.email{
+	position: fixed;
+    bottom: 25px;
+    left: 25px;
+    display: none;
+}
+
+#index{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/PoE_map.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+    background-attachment:fixed;
+}
+
+#genesis{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Pantheonwallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment:fixed;
+}
+
+#karui{
+	background-image: linear-gradient(rgba(255, 119, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Marauder.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment:fixed;
+}
+
+#vaal{
+	background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/atziriwallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment:fixed;
+}
+
+#maraketh{
+	background-image: linear-gradient(rgba(201, 134, 0, 0.5), rgba(255, 255, 255, 0.5)), url("../Images/junoriginal.jpg");
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position: right;
+	background-attachment:fixed;
+}
+
+#ezomyte{
+	background-image: linear-gradient(rgba(51, 102, 0, 0.7), rgba(186, 252, 210, 0.5)), url("../Images/Rigwald.jpg"), linear-gradient(rgba(76, 95, 128, 1), rgba(76, 95, 128, 1), rgba(29, 34, 54, 1));
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position: right;
+	background-attachment:fixed;
+}
+
+#azmeri{
+	background-image: linear-gradient(rgba(92, 29, 13, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Forest_Encampment.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment:fixed;
+}
+
+#eternals{
+	background-image: linear-gradient(to right, rgba(255, 214, 51, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Innocence_Sin.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment:fixed;
+}
+
+#order{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/PoE_map.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment:fixed;
+}
+
+#scroll{
+	background-image: url("../Images/scroll.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+}

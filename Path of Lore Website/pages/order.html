@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Path of Lore</title>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="https://kit.fontawesome.com/077f1168e9.js"></script>
+		<script src="../javascript/BackToTop.js"></script>
+		<script src="../javascript/validate.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../styles/main.css"/>
+	</head>
+
+	<body id="order">
+		<header class="banner">
+			<div class="container h-100">
+				<div class="row h-100 align-items-center">
+					<div class="col-12 text-center">
+						<h1>Path of Lore</h1>
+						<p class="lead">A conpendium of all PoE lore</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<nav class="nav navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+			<a class="navbar-brand" href="../index.html">Home</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPages">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarPages">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="genesis.html">Genesis</a></li>
+				<li class="nav-item"><a class="nav-link" href="vaal.html">Vaal</a></li>
+				<li class="nav-item"><a class="nav-link" href="karui.html">Karui</a></li>
+				<li class="nav-item"><a class="nav-link" href="maraketh.html">Maraketh</a></li>
+				<li class="nav-item"><a class="nav-link" href="ezomytes.html">Ezomytes</a></li>
+				<li class="nav-item"><a class="nav-link" href="azmeri.html">Azmeri</a></li>
+				<li class="nav-item"><a class="nav-link" href="eternals.html">Eternals</a></li>
+			</ul>
+			</div>
+			<ul class="nav justify-content-end">
+				<li class="nav-item"><a class="nav-link active order rounded" href="#">Order</a></li>
+				<li class="nav-item"><a class="nav-link text-right" href="https://www.pathofexile.com" target="_blank">Visit the Offical PoE Website</a></li>
+			</ul>
+		</nav>
+		
+		
+		<div class="container content">
+			<div class="row heading" id="scroll">
+				<div class="col-lg-12 text-center">
+				<h2>Order a Copy of the Comprehensive Lore</h2>
+				</div>
+			</div>
+			<br>
+			<div class="row d-flex bd-highlight">
+				<div class="col-md-6 col-lg-4 bd-highlight">
+					<form action="/action_page.php">
+						<div class="form-group">
+							<label for="name">Name:</label>
+							<input type="text" class="form-control" placeholder="Full name" id="name">
+						</div>
+						<div class="form-group">
+							<label for="email">Email address:</label>
+							<input type="email" class="form-control" placeholder="Email@example.com" id="email">
+						</div>
+						<div class="form-group">
+							<label>Type of book:</label>
+							<div class="form-check" id="radiogroup">
+								<input class="form-check-input" type="radio" name="bookType" id="radioHardcover" value="hardcover">
+								<label class="form-check-label" for="radioHardcover">Hardcover</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="bookType" id="radioPaperback" value="paperback">
+								<label class="form-check-label" for="radioPaperback">Paperback</label>
+							</div>
+						</div> 
+						<div class="form-group">
+							<label for="bookNum">Number of Copies:</label><br>
+							<input type="number" name="quantity" min="1" max="5" id="bookNum" placeholder="Max 5">
+						</div>
+						<div class="form-group">
+							<label for="bookColour">Colour:</label>
+							<select id="bookColour" class="form-control">
+								<option selected disabled>Choose...</option>
+								<option>Black</option>
+								<option>White</option>
+								<option>Red</option>
+								<option>Blue</option>
+								<option>Green</option>
+							</select>
+						</div>
+						
+						<div class="form-group">
+							<label for="inputAddress">Address</label>
+							<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+						</div>
+						<div class="form-group">
+							<label for="inputAddress2">Address 2</label>
+							<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputCity">City</label>
+								<input type="text" class="form-control" placeholder="City" id="inputCity">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="inputState">State</label>
+								<select id="inputState" class="form-control">
+									<option selected disabled>Choose...</option>
+									<option>NSW</option>
+									<option>VIC</option>
+									<option>QLD</option>
+									<option>WA</option>
+									<option>SA</option>
+									<option>TAS</option>
+								</select>
+							</div>
+							<div class="form-group col-md-2">
+								<label for="inputPostcode">Postcode</label>
+								<input type="text" class="form-control" id="inputPostcode">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="comment">Feedback:</label>
+							<textarea class="form-control" rows="5" id="comment" placeholder="If you have any suggestions or information to add to the book/site."></textarea>
+						</div> 
+						<div class="form-group form-check">
+							<input class="form-check-input" type="checkbox" id="updateCheck">
+							<label class="form-check-label" for="updateCheck">Send Me Updates</label>
+						</div>
+						<button type="button" class="btn btn-secondary" onclick="validate();">Order</button>
+					</form>
+					
+				</div>
+				
+               
+				
+				<div class="col-md-6 col-lg-8 flex-grow-1 bd-highlight">
+					<div class="embed-responsive embed-responsive-1by1">
+							<iframe class="embed-responsive-item" src="../POE_3.6.pdf#toolbar=0"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<a href = "mailto:30008716@tafe.wa.edu.au" class="email">Send Email</a>
+		<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+	</body>
+</html>
